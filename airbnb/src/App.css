@@ -1,27 +1,53 @@
 nav{
-  height: .85in;
+  height: .8in;
   display:flex;
-  justify-content: space-around;
+  padding: 5px;
+  justify-content:space-between;
   box-shadow:0px .5px 2px rgb(197, 189, 189);
-}
-
-pre{
-  font-weight: bold;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 button{
   display: flex;
+  align-self: center;
   align-items: center;
-  justify-content: center;
+  background-color: white;
+  justify-content: space-around;
+  height: 50%;
   border: 1px;
   box-shadow: 1px 1px 2px rgb(189, 182, 182);
   border-radius: 20px;
-  width: 3in
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span{
+  margin: 0px 15px;
+  font-weight: bold;
+}
+
+pre{
+  height:initial;
+  margin: 0;
+  justify-content: center;
 }
 
 
 .nav-logo{
-  height: 35px;
-  padding: 25px 30px;
+  padding: 25px 60px;
+}
+
+.nav-right{
+  align-items: center;
+  padding: 30px;
+  display: flex;
+}
+
+button.but{
+  box-shadow: none;
+  box-sizing: border-box;
+  border: .1px solid rgb(227, 223, 214);
+}
+
+button.but>span{
+  margin: 0px 5px;
 }
