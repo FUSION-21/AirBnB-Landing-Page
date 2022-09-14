@@ -1,5 +1,6 @@
 import Navbar from './Components/navbar'
 import Stays from './Components/stays';
+import Location from './Components/location';
 import './App.css';
 
 function App() {
@@ -47,6 +48,127 @@ function App() {
             image="./svg/cabin.svg"
             text="Cabin"
         />
+      </div>
+      <div className='location-grid'>
+        <Location
+        image="./location/loc1.jpg"
+        name="Antilia,Mumbai"
+        rating="5.0"
+        distance="1300 kilometers"
+        date="26-28 Sep"
+        cost="$1400"
+        />
+
+        <Location
+        image="./location/loc2.jpg"
+        
+        name="St. John,Budapest"
+        rating="4.6"
+        distance="1300 kilometers"
+        date="26-28 Sep"
+        cost="$1400"
+        />
+
+        <Location
+        image="./location/loc3.jpg"
+        
+        name="La tao,Laddakh"
+        rating="4.6"
+        distance="1300 kilometers"
+        date="26-28 Sep"
+        cost="$1400"
+        />
+
+        <Location
+        image="./location/loc4.jpg"
+        
+        name="The Pristine,Malan"
+        rating="4.6"
+        distance="1300 kilometers"
+        date="26-28 Sep"
+        cost="$1400"
+        />
+
+        <Location
+        image="./location/loc5.jpg"
+        
+        name="Amphibia,France"
+        rating="4.6"
+        distance="1300 kilometers"
+        date="26-28 Sep"
+        cost="$1400"
+        />
+
+        <Location
+        image="./location/loc6.jpg"
+        
+        name="The Abbys,Georgetown"
+        rating="4.6"
+        distance="1300 kilometers"
+        date="26-28 Sep"
+        cost="$1400"
+        />
+
+<Location
+        image="./location/loc7.jpg"
+        
+        name="Plutonic,Miami"
+        rating="4.6"
+        distance="1300 kilometers"
+        date="26-28 Sep"
+        cost="$1400"
+        />
+
+        <Location
+        image="./location/loc8.jpg"
+        
+        name="Atlantis,Maldives"
+        rating="4.6"
+        distance="1300 kilometers"
+        date="26-28 Sep"
+        cost="$1400"
+        />
+
+        <Location
+        image="./location/loc9.jpg"
+        
+        name="Jumeriah,Dubai"
+        rating="4.6"
+        distance="1300 kilometers"
+        date="26-28 Sep"
+        cost="$1400"
+        />
+
+        <Location
+        image="./location/loc10.jpg"
+        
+        name="The Shire,Transylvania"
+        rating="4.6"
+        distance="1300 kilometers"
+        date="26-28 Sep"
+        cost="$1400"
+        />
+
+        <Location
+        image="./location/loc11.jpg"
+        name="Bulge,UK"
+        rating="4.6"
+        distance="1300 kilometers"
+        date="26-28 Sep"
+        cost="$1400"
+        />
+
+        <Location
+        image="./location/loc12.jpg"
+        name="Queens,Austria"
+        rating="4.6"
+        distance="1300 kilometers"
+        date="26-28 Sep"
+        cost="$1400"
+        />
+
+
+
       </div>
     </div>
   );

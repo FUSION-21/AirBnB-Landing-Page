@@ -75,3 +75,30 @@ button.but>span{
   justify-content:space-evenly;
   box-shadow:0px .5px 2px rgb(197, 189, 189);
 }
+
+.loc-details>p{
+  margin: 0;
+}
+
+.loc-details{
+  display: grid;
+  padding-top: 5px;
+  grid-template-columns: 2.5fr 1fr;
+  
+}
+
+.location-grid
+{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  column-gap: 0px;
+  row-gap: 30px;
+  margin-top: 20px;
+  padding-left: 2cm;
+}
+
+.loc-img{
+  width: 300px;
+  height: 300px;
+  border-radius: .15in;
+}
